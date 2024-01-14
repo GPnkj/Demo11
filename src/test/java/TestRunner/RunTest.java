@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features= {"AllDriverFiles"},
 		glue= {"StepDefination"},
-		dryRun=false,
+		dryRun=true,
 		monochrome=true,
 		plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		)
